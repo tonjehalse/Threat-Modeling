@@ -2481,77 +2481,7 @@
                 "x": 200,
                 "y": -250
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "trust-boundary-curve",
@@ -2597,6 +2527,110 @@
               {
                 "x": 510,
                 "y": 340
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data"
+            ],
+            "id": "7d3208ff-51fa-403d-826a-5d1b03d743e2",
+            "source": {
+              "cell": "08628efd-9a2a-4ed2-a5ce-5d41cc3a670f",
+              "port": "40116d20-a1cf-473e-b540-3aa82a180e64"
+            },
+            "target": {
+              "cell": "1557fb51-eab1-48ef-8b93-063b2e611585",
+              "port": "949b7172-625e-4ab9-b9ee-8ef221ace2cd"
+            },
+            "vertices": [
+              {
+                "x": 610,
+                "y": -330
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data"
+            ],
+            "id": "132d19ba-64df-41de-ae82-b5a8372a14d3",
+            "source": {
+              "cell": "1557fb51-eab1-48ef-8b93-063b2e611585",
+              "port": "949b7172-625e-4ab9-b9ee-8ef221ace2cd"
+            },
+            "target": {
+              "cell": "08628efd-9a2a-4ed2-a5ce-5d41cc3a670f",
+              "port": "40116d20-a1cf-473e-b540-3aa82a180e64"
+            },
+            "vertices": [
+              {
+                "x": 550,
+                "y": -300
               }
             ]
           },
@@ -3675,7 +3709,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -3683,17 +3717,27 @@
               "containedElements": []
             },
             "labels": [
-              "Trust Boundary"
+              ""
             ],
             "id": "2823c9d6-734e-42bf-bc61-02c55be36971",
             "source": {
               "x": 710,
-              "y": -400
+              "y": -270
             },
             "target": {
               "x": 750,
               "y": -60
-            }
+            },
+            "vertices": [
+              {
+                "x": 640,
+                "y": -220
+              },
+              {
+                "x": 620,
+                "y": -120
+              }
+            ]
           }
         ]
       }
