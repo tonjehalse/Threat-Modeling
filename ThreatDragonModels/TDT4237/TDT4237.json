@@ -1933,7 +1933,12 @@
               "cell": "a6de7dd9-8fca-498c-ac0f-d56b16e9b5f8",
               "port": "5f2b7fb5-8231-4bea-8527-5b4f2191c025"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 730,
+                "y": 850
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1982,8 +1987,8 @@
             },
             "vertices": [
               {
-                "x": 670,
-                "y": 790
+                "x": 730,
+                "y": 800
               }
             ]
           },
@@ -2336,8 +2341,8 @@
             },
             "vertices": [
               {
-                "x": 920,
-                "y": 520
+                "x": 970,
+                "y": 500
               }
             ]
           },
@@ -2492,57 +2497,10 @@
             },
             "vertices": [
               {
-                "x": 660,
-                "y": 1000
+                "x": 700,
+                "y": 950
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "a8af2193-6d30-4bdf-8821-576919d0e90b",
-            "source": {
-              "cell": "a6de7dd9-8fca-498c-ac0f-d56b16e9b5f8",
-              "port": "0969cf9f-13f8-4bf3-a96b-c93e5990b123"
-            },
-            "target": {
-              "x": 810,
-              "y": 790
-            },
-            "vertices": []
           },
           {
             "position": {
@@ -2666,8 +2624,8 @@
           },
           {
             "position": {
-              "x": 370,
-              "y": 960
+              "x": 445,
+              "y": 980
             },
             "size": {
               "width": 80,
@@ -2786,12 +2744,12 @@
           },
           {
             "position": {
-              "x": 780,
-              "y": 790
+              "x": 892.5,
+              "y": 750
             },
             "size": {
-              "width": 70,
-              "height": 80
+              "width": 100,
+              "height": 100
             },
             "attrs": {
               "text": {
@@ -3523,7 +3481,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Response",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3537,17 +3495,23 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Response"
             ],
             "id": "c08791e9-12f8-4095-b0c9-d941afc40b0e",
             "source": {
-              "x": 810,
-              "y": 870
+              "cell": "a6de7dd9-8fca-498c-ac0f-d56b16e9b5f8",
+              "port": "0969cf9f-13f8-4bf3-a96b-c93e5990b123"
             },
             "target": {
               "cell": "ba7f33ba-1271-4a0b-a892-f0eb2bc92dec",
               "port": "745c34ca-b8bf-484d-8efd-94fafc502526"
-            }
+            },
+            "vertices": [
+              {
+                "x": 740,
+                "y": 1000
+              }
+            ]
           }
         ]
       }
